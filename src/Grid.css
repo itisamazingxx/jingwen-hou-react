@@ -1,0 +1,10 @@
+.grid-container {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 5px;
+    justify-content: center;
+}
