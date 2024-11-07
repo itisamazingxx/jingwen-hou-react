@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Cell from './Cell';
 import './Grid.css';
 
+// Parent Component
 function Grid() {
     const [count, setCount] = useState(0);
 

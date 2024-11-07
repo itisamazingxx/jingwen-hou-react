@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Cell.css';
 
+// Child Component
 function Cell({ onToggle }) {
     const [isOn, setIsOn] = useState(false);
 
